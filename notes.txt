@@ -1,0 +1,7 @@
+1 - what is node js?
+ans - JS runtime built on V8 engine
+
+2 - node js history
+
+3 - what is server --- software
+
