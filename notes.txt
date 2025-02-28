@@ -9,4 +9,30 @@ lecture 4 --- modules and exports
 
     commonJs modules,ES Modules MJS
 
-    
+
+lecture 5 --- 
+
+how are variables and functions private in different modules ??
+
+IIFE -- function  (function (){code goes here})()  keeps variables and functions private
+
+
+how do we get access to module.exports and require?
+
+ What require Does
+When you call require, Node.js:
+
+Resolves the module path:
+Node determines where to find the file or package.
+
+Loads and wraps the module:
+Node wraps the code in a special function to give it access to useful variables (exports, module, require, etc.).
+
+Caches the module:
+Node caches the module after loading it, so subsequent calls to require load the cached version (instead of re-running the code).
+
+Returns module.exports:
+Whatever you assign to module.exports is what gets returned from the require call.
+
+explore node js github repo
+
